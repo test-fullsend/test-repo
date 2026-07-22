@@ -1,2 +1,2 @@
 # Auto-merge: review bot owns docs/ so its approval satisfies CODEOWNERS
-/docs/** @test-fullsend-review[bot]
+/docs/** @fullsend-ai-review[bot]
