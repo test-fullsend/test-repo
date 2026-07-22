@@ -20,3 +20,10 @@ The bookstore application is built as a set of loosely coupled microservices com
 ## Deployment
 
 Services are containerized and deployed to Kubernetes. Each service has its own Helm chart under `deploy/`.
+
+### Prerequisites
+
+- kubectl v1.28+
+- Helm v3.14+
+- Access to the container registry (`ghcr.io`)
+- A running Kubernetes cluster (`minikube` or `kind` for local development)
